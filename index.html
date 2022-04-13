@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Petals</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
@@ -17,14 +18,10 @@
     ></script>
   </head>
   <body>
+    <div class="container">
     <header class="header">
       <!-- Navbar -->
-      <img
-        src="img/mob-menu.png"
-        alt="mob-menu"
-        id="menu"
-        class="header__menu"
-      />
+     
       <nav class="header__nav">
         <a href="index.html"><img src="img/logo.png" alt="logo" class="logo" /></a>
         <ul class="header__nav__navlinks navlinks__transition" id="navlinks">
@@ -32,12 +29,19 @@
           <li><a href="#">About</a></li>
           <li><a href="#">Categories</a></li>
           <li><a href="#">Contact</a></li>
+         
         </ul>
+        <img
+        src="img/mob-menu.png"
+        alt="mob-menu"
+        id="menu"
+        class="header__menu"
+      />
       </nav>
     </header>
 
     <!-- Banner  -->
-
+  
     <main class="main__container">
       <div class="main__container__banner__container">
         <div class="banner__container__items">
@@ -52,54 +56,68 @@
           </div>
         </div>
       </div>
-     
-      <div class="mid">Featured</div>
-  
+    </main>
+
+
+     <section class="mid">
+      <p >Featured</p>
+    </section>
+
+
+    <figure >
       <div class="flexbox">
         <div class="outer">
           <div class="flexbox1">
-            <img src="img/flower-1.jpg" />
+            <img src="img/flower-1.jpg"  alt="Flower 1" class="rounded-circle">
           </div>
-  
-          <p><b>Lorem ipsum</b><br />Lorem ipsum Lorem ipsum</p>
+         <h1>Lorem ipsum</h1>
+          <p>Lorem ipsum Lorem ipsum</p>
         </div>
         <div class="outer">
           <div class="flexbox1">
-            <img src="img/flower-2.jpg" />
+            <img src="img/flower-2.jpg" alt="Flower 2" class="rounded-circle">
           </div>
-  <p><b>Lorem ipsum</b><br />Lorem ipsum Lorem ipsum</p>
+          <h1>Lorem ipsum</h1>
+          <p>Lorem ipsum Lorem ipsum</p>
         </div>
   
         <div class="outer">
           <div class="flexbox1">
-            <img src="img/flower-3.jpg" />
+            <img src="img/flower-3.jpg" alt="Flower 3" class="rounded-circle">
           </div>
-          <p><b>Lorem ipsum</b><br />Lorem ipsum Lorem ipsum</p>
+          <h1>Lorem ipsum</h1>
+          <p>Lorem ipsum Lorem ipsum</p>
         </div>
       </div>
   
       <div class="flexboxsecond">
         <div class="outer">
           <div class="flexbox1">
-            <img src="img/flower-4.jpg" />
+            <img src="img/flower-4.jpg" alt="Flower 4" class="rounded-circle">
           </div>
-          <p><b>Lorem ipsum</b><br />Lorem ipsum Lorem ipsum</p>
+          <h1>Lorem ipsum</h1>
+          <p>Lorem ipsum Lorem ipsum</p>
         </div>
         <div class="outer">
           <div class="flexbox1">
-            <img src="img/flower-5.jpg" />
+            <img src="img/flower-5.jpg" alt="Flower 5" class="rounded-circle">
           </div>
-          <p><b>Lorem ipsum</b><br />Lorem ipsum Lorem ipsum</p>
+          <h1>Lorem ipsum</h1>
+          <p>Lorem ipsum Lorem ipsum</p>
         </div>
         <div class="outer">
-          <div class="flexbox1">
-            <img src="img/flower-6.jpg" />
+         <div class="flexbox1">
+            <img src="img/flower-6.jpg" alt="Flower 6" class="rounded-circle">
           </div>
-          <p><b>Lorem ipsum</b><br />Lorem ipsum Lorem ipsum</p>
+          <h1>Lorem ipsum</h1>
+          <p>Lorem ipsum Lorem ipsum</p>
         </div>
       </div>
-  
-      <section class="footer">
+    </figure>
+
+
+    
+      <footer class="footer">
         <div class="social">
           <p>Connect us<br /></p>
           <a href="#"><img src="img/fb.png" /></a>
@@ -111,8 +129,8 @@
             Copyright Petals 2019
           </h1>
         </div>
-      </section>
-    </main>
+      </footer>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
