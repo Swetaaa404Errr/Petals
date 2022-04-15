@@ -53,7 +53,7 @@ a {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 5rem;
+  gap: 15rem;
   margin-right: 10px;
 }
 .header__nav__navlinks > li > a {
@@ -86,7 +86,8 @@ a {
    flex-direction: column;
    gap: 0.7rem;
    width: 35%;
-   
+   margin-left: 10px;
+   row-gap: 10px;
  }
 .mid {
     width: 98.5%;
@@ -195,6 +196,9 @@ a {
 
   .petals{
     color: rgb(42, 169, 42);
+  }
+  .container{
+    max-width: 100%;
   }
   
 
@@ -325,6 +329,7 @@ a {
     flex-direction: row;
     gap: 0.5rem;
     width: 100%;
+    margin-left: 0;
    
   }
   .banner__container__items {
@@ -345,7 +350,7 @@ a {
   .flexbox {
     flex-direction: column;
     align-items: center;
-  
+   
    
   }
  
@@ -360,9 +365,11 @@ a {
   .outer {
    width: 90%;
     margin-bottom: 25px;
+    margin-left: 0;
    }
    .outer p {
     font-size: 3.5rem;
+   
   }
 
   .outer h1{
