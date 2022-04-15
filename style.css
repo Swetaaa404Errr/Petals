@@ -248,8 +248,11 @@ a {
 
 /* Mobile View */
 @media only screen and (min-width: 260px) and (max-width: 767px) {
-  body{
+  *{
     overflow-x: hidden;
+  }
+  body{
+    overflow-x:hidden;
    
   }
  
@@ -280,7 +283,7 @@ a {
     top: 10rem;
     gap: 0rem;
     z-index: 2;
-    width: 131%;
+    width: 100%;
     background: var(--secondary-light);
   }
   .navlinks__transition {
@@ -371,7 +374,7 @@ a {
 
   .footer {
     position: relative;
-    width: 111%;
+    width: 100%;
     top: 80px;
   
   }
