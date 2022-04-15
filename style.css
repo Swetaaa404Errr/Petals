@@ -248,9 +248,7 @@ a {
 
 /* Mobile View */
 @media only screen and (min-width: 260px) and (max-width: 767px) {
-  *{
-    overflow-x: hidden;
-  }
+ 
   body{
     overflow-x:hidden;
    
